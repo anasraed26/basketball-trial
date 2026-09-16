@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background: darkblue;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+h4 {
+    color: brown;
+    font-size: 40px;
+    margin-top: 20px;
+}
+h1 {
+  font-family: "Orbitron", serif;
+  margin: 0px;
+  font-size: 100px;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: red;
+  background: black;
+  border-radius: 7px;
+  padding: 10px 10px;
+}
+h3 {
+    color: antiquewhite;
+}
+.points {
+    display: flex;
+    justify-content: start;
+}
+p {
+    padding: 10px;
+    background: white;
+    margin: 10px 15px;
+    border-radius: 10px;
+    color: dimgray;
+}

@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h1 id="home-el">0</h1>
+                <div class="points">
+                    <p onclick="hadd1()">+1</p>
+                    <p onclick="hadd2()">+2</p>
+                    <p onclick="hadd3()">+3</p>
+                </div>
+                <h4 onclick="resetHome()">RESET</h4>
+            </div>
+            <div>
+                <h3>AWAY</h3>
+                <h1 id="guest-el">0</h1>
+                <div class="points">
+                    <p onclick="gadd1()">+1</p>
+                    <p onclick="gadd2()">+2</p>
+                    <p onclick="gadd3()">+3</p>
+                </div>
+                <h4 onclick="resetGuest()">RESET</h4>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
